@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="XCOPY /E /Y /R &quot;$(TargetDir)*&quot; &quot;$(SolutionDir)bin&quot;" />
+    <Exec Command="XCOPY /E /Y /R &quot;$(TargetDir)*&quot; &quot;$(SolutionDir)bin&quot;" Condition="$(ConfigurationName) == Debug" />
   </Target>
 
 </Project>
