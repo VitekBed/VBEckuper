@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VBE.VBeckuperClient": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\vitek\\source\\repos\\VitekBed\\VBE.VBeckuper\\bin\\VBE.VBeckuperClient.exe"
+    }
+  }
+}
